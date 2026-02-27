@@ -1,7 +1,6 @@
 #دریافت عددی و چاپ اعداد زوج دو رقمی کوچکتر از آن
 
-a = int(input("Enter your first number : "))
-b = int(input("Enter your second number : "))
-for i in range(1, min(a, b) + 1):
-    if a % i == 0 and b % i == 0:
+n = int(input("Enter your number : "))
+for i in range(10, n):
+    if i % 2 == 0 and i < 100:
         print(i)
