@@ -9,7 +9,7 @@ if b > a:
     max_num = b
 if c > b:
     max_num = c
-    print("The largest number is:", max_num)
+    print("The number is:", max_num)
 
 
 a = float(input("Enter first number: "))
@@ -21,4 +21,4 @@ if b < a:
     min_num = b
 if c < b:
     min_num = c
-    print("The largest number is:", min_num)
+    print("The number is:", min_num)
